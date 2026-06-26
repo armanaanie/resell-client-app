@@ -50,14 +50,15 @@ export const auth = betterAuth({
             clientSecret: process.env.GOOGLE_CLIENT_SECRET, 
         }, 
     },
-  user:{
-    additionalFields:{
-        role: {
-  type: String,
-  default: "buyer",
-}
-    }
+  user: {
+  additionalFields: {
+    role: {
+      type: "string",
+      defaultValue: "buyer",
+      required: false,
+    },
   },
+},
  plugins: [
         jwt(), 
     ],

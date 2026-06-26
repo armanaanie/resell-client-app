@@ -48,7 +48,7 @@ const [search, setSearch] = useState("");
       `/Products?page=1&search=${value}`
     );
   }}
-          placeholder="Search by name or category..."
+          placeholder="Search by name..."
           className="w-full md:w-1/2 px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white outline-none"
         />
 
