@@ -1,7 +1,8 @@
 import { ArrowRight, Shield, TrendingUp } from "lucide-react";
-
+import { motion } from "framer-motion";
 import FramerMotion from "./FramerMotion";
 import Link from "next/link";
+import FloatingBadge from "./FloatingBadge";
 export default function Banner() {
   const STATS = [
     { value: "480K+", label: "Active Listings" },
@@ -86,15 +87,8 @@ export default function Banner() {
               />
 
               {/* Trust badge */}
-              <div className="absolute top-6 left-2 bg-white/10 backdrop-blur-md rounded-xl p-3 shadow-lg flex items-center gap-2 text-xs">
-                <div className="w-7 h-7 rounded-full bg-[#D51C39] flex items-center justify-center">
-                  <Shield size={14} className="text-white" />
-                </div>
-                <div>
-                  <p className="font-semibold">Verified Seller</p>
-                  <p className="text-white/70">92K+ trusted members</p>
-                </div>
-              </div>
+           
+<FloatingBadge/>
 
               {/* Discount card */}
           <FramerMotion/>
