@@ -19,6 +19,8 @@ const res= await fetch(`${baseUrl}/api/product`,{
   return res.json();
 };
 
+
+
 export const getProducts = async () => {
   const res = await fetch(`${baseUrl}/api/all/product`, {
     cache: "no-store",
