@@ -64,7 +64,7 @@ const cardVariant = {
 
 export default function AnalyticsPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-950 via-gray-900 to-black text-white p-4 md:p-6">
+    <div className="min-h-screen bg-[#760031] text-white p-4 md:p-6">
 
       {/* HEADER */}
       <motion.div
