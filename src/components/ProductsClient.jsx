@@ -32,7 +32,7 @@ const [search, setSearch] = useState("");
     <div className="min-h-screen bg-gradient-to-br from-[#760031] via-[#5c0026] to-[#2b0012] p-8">
 
      <h2
-          className="text-5xl font-bold text-center "
+          className="text-5xl font-bold text-center my-10 "
           style={{ fontFamily: "'DM Serif Display', serif" }}>
         All Products
       </h2>
