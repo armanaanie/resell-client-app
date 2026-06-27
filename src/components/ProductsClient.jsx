@@ -31,9 +31,11 @@ const [search, setSearch] = useState("");
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#760031] via-[#5c0026] to-[#2b0012] p-8">
 
-      <h1 className="font-bold text-center text-3xl m-4 text-white">
+     <h2
+          className="text-5xl font-bold"
+          style={{ fontFamily: "'DM Serif Display', serif" }}>
         All Products
-      </h1>
+      </h2>
 
       {/* 🔍 SEARCH + SORT BAR */}
       <div className="flex flex-col md:flex-row gap-3 mb-8">
