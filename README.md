@@ -6,9 +6,9 @@ A modern second-hand marketplace built with the MERN stack where users can buy, 
 
 ## 🌐 Live URL
 
-**Client:** https://your-client-url.vercel.app
+**Client:** https://resell-client-app.vercel.app/
 
-**Server:** https://your-server-url.vercel.app
+
 
 
 
